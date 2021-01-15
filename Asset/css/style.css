@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+	margin: 0;
+}
+
+@font-face {
+	font-family: proximanova;
+	src: url("fonts/proximanova-regular.otf") format("opentype");
+}
+
+body {
+	background-color: #fff;
+	font-family: 'proximanova';
+}
+
+.jumbotron {
+	background-image: url('../img/Thomas-Frank.jpg');
+	height: 100vh;
+	background-position: center;
+	color: #fff;
+	background-size: cover;
+}
+
+.jumbotron > h1 {
+	color: #fff;
+	align-self: center;
+	text-align: center;
+	font: proximanova, sans-serif;
+	font-size: 65px;
+	letter-spacing: 2.7px;
+	line-height: 1.4em;
+	font: bold;
+	text-transform: uppercase;
+	text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	position: relative;
+	top: 50%;
+	font-weight: 900;
+}
