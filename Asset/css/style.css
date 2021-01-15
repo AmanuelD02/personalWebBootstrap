@@ -35,3 +35,39 @@ body {
 	top: 50%;
 	font-weight: 900;
 }
+
+.youtuber {
+	padding: 100px 50px;
+}
+.youtuber > p {
+	text-align: center;
+	font-size: 42px;
+	font-weight: 300;
+	line-height: 1.6em;
+}
+
+.third__col {
+	margin-left: 20;
+	margin-right: 20;
+}
+
+.third__col > h1 {
+	text-align: center;
+	line-height: 2.1em;
+	font-weight: bold;
+	color: #272121;
+}
+.third__col > p {
+	text-align: start;
+	font-size: 1.25em;
+	line-height: 32px;
+}
+
+.fourth__col {
+	padding: 2em;
+}
+iframe {
+	width: 90vh;
+	height: 100%;
+	align-items: center;
+}
