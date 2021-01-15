@@ -71,3 +71,60 @@ iframe {
 	height: 100%;
 	align-items: center;
 }
+
+.fourth__col {
+	padding: 2em;
+}
+.container-fluid > .row {
+	margin: 0.56em 2em;
+}
+.card {
+	padding: 30px;
+}
+.logo {
+	font-size: 18px;
+	text-align: left;
+	line-height: 30px;
+	letter-spacing: normal;
+	text-decoration: none;
+}
+
+.logo:hover {
+	text-decoration: none;
+}
+
+.aman_d {
+	background-image: url("../img/Thomas-Frank.jpg");
+	background-position: center;
+	height: 100vh;
+	background-size: cover;
+	word-wrap: break-word;
+	max-width: 2300px;
+	object-fit: contain;
+}
+
+.aman_d > h1 {
+	color: #fff;
+	align-self: center;
+	text-align: center;
+	font: proximanova, sans-serif;
+	font-size: 65px;
+	letter-spacing: 2.7px;
+	line-height: 1.4em;
+	font: bold;
+	text-transform: uppercase;
+	text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 100%;
+}
+.card__link {
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1em;
+	padding: 15px 30px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
