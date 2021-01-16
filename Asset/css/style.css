@@ -48,6 +48,12 @@ body {
 	line-height: 1.6em;
 }
 
+@media screen and (max-width: 924px) {
+	.youtuber {
+		padding: 0;
+	}
+}
+
 .third__col {
 	margin-left: 20;
 	margin-right: 20;
@@ -80,10 +86,7 @@ iframe {
 .container-fluid > .row {
 	margin: 0.56em 2em;
 }
-.card {
-	padding: 30px;
-	border: none;
-}
+
 .logo {
 	font-size: 18px;
 	text-align: left;
@@ -130,10 +133,11 @@ iframe {
 	padding: 15px 30px;
 	margin-top: 15px;
 	border-radius: 5px;
+	background-color: #dc3545;
 }
 
 .rows {
-	margin-top: 100px;
+	margin-top: 6.25rem;
 }
 
 .navbar {
@@ -166,4 +170,13 @@ iframe {
 }
 #social-link:hover {
 	color: grey;
+}
+#imgs {
+	width: 616px;
+	height: 346px;
+}
+
+#imgs2 {
+	width: 640px;
+	height: 394px;
 }
