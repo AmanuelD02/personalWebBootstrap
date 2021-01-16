@@ -10,13 +10,18 @@
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!--  CSS LINK -->
         <link rel="stylesheet" href="Asset/css/style.css">
+
+        <!-- Font awesome Link -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
         <title>Amanuel Debebe</title>
     </head>
 
     <body>
 
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light bg-light pt-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">AMANUEL <b>DEBEBE</b></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarNav">
@@ -26,16 +31,31 @@
             <div class="collapse navbar-collapse navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" id="navlink" href="#" style="width: 150px;"> <i
+                                class="fa fa-user-secret"></i>ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">WRITING</a>
+                        <a class="nav-link" href="#" id="navlink" style="width: 150px;"><i class="fa fa-eyedropper"></i>
+                            WRITING</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">COURSES</a>
+                        <a class="nav-link" href="#" id="navlink" style="width: 150px;"> <i class="fa  fa-flask"></i>
+                            COURSES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">TEMPLETES</a>
+                        <a class="nav-link" href="#" id="navlink" style="width: 150px;"><i
+                                class="fa fa-wrench"></i>TEMPLETES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="social-link"> <i class="fa fa-instagram"></i> </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="social-link"> <i class="fa fa-twitter"></i> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="social-link"> <i class="fa fa-telegram"></i> </a>
+
                     </li>
                 </ul>
             </div>
@@ -50,16 +70,18 @@
 
 
         <!-- FIRST ROW  -->
-        <div class="container-fluid  ">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row ">
                 <div class="col youtuber">
                     <p>I’m a YouTuber, podcaster, and author passionate about helping people become more
                         capable and productive.</p>
                 </div>
             </div>
+        </div>
 
+        <div class="container-fluid rows">
             <!-- SECOND ROW -->
-            <div class="row padding">
+            <div class="row padding ">
                 <div class="col-md-6  third__col">
                     <h1>Video Essays</h1>
                     <p>
@@ -83,7 +105,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 fourth__col">
-                    <iframe src="https://www.youtube.com/embed/4NRXx6U8ABQ" frameborder="0"
+                    <iframe src="https://www.youtube.com/embed/4NRXx6U8ABQ" class="img-fluid h-100 w-auto"
+                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -91,8 +114,8 @@
         </div>
 
         <!-- THIRD ROW -->
-        <div class="conatiner-fluid ">
-            <div class="row padding">
+        <div class="container-fluid rows    ">
+            <div class="row padding third__col">
                 <div class="col-md-6">
                     <img src="./Asset/img/img-2.jpg" alt="" width="90%" height="90%">
                 </div>
@@ -117,7 +140,7 @@
             </div>
         </div>
         <!-- FOURTH ROW -->
-        <div class="container-fluid ">
+        <div class="container-fluid rows">
             <div class="row padding">
                 <div class="col-md-6 third__col">
                     <h1>Notion Tutorials and Templates </h1>
@@ -136,7 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">d
+                <div class="col-md-6">
                     <img src="./Asset/img/IMG-3.jpg" alt="" width="90%" height="90%">
                 </div>
             </div>
@@ -145,7 +168,7 @@
 
         <!-- FIFTH ROW -->
         <!-- CARDS -->
-        <div class="container-fluid ">
+        <div class="container-fluid rows">
             <div class="row align-items-start">
 
                 <div class="card-columns">

@@ -18,6 +18,7 @@ body {
 	background-position: center;
 	color: #fff;
 	background-size: cover;
+	clip-path: polygon(0 0, 100% 0, 100% 87%, 50% 100%, 0 87%);
 }
 
 .jumbotron > h1 {
@@ -34,6 +35,7 @@ body {
 	position: relative;
 	top: 50%;
 	font-weight: 900;
+	filter: brightness(100%) contrast(127%) saturate(122%) blur(0) hue-rotate(0deg);
 }
 
 .youtuber {
@@ -80,6 +82,7 @@ iframe {
 }
 .card {
 	padding: 30px;
+	border: none;
 }
 .logo {
 	font-size: 18px;
@@ -127,4 +130,40 @@ iframe {
 	padding: 15px 30px;
 	margin-top: 15px;
 	border-radius: 5px;
+}
+
+.rows {
+	margin-top: 100px;
+}
+
+.navbar {
+	padding: .8rem;
+}
+
+#navlink:hover {
+	background-color: #111111;
+	color: #fff;
+}
+
+.nav-link {
+	font-size: .825em !important;
+	letter-spacing: 2.5px;
+	text-align: left;
+	height: auto;
+}
+
+.navbar-brand {
+	font-size: 18px;
+}
+.navbar-brand:hover {
+	font-style: italic;
+	transition: all .8s ease;
+	-webkit-transition: all .8s ease;
+}
+
+#social-link {
+	color: black;
+}
+#social-link:hover {
+	color: grey;
 }
