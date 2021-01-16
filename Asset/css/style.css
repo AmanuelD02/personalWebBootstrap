@@ -99,32 +99,10 @@ iframe {
 	text-decoration: none;
 }
 
-.aman_d {
-	background-image: url("../img/Thomas-Frank.jpg");
-	background-position: center;
-	height: 100vh;
-	background-size: cover;
-	word-wrap: break-word;
-	max-width: 2300px;
-	object-fit: contain;
+h1 {
+	color: #272121;
 }
 
-.aman_d > h1 {
-	color: #fff;
-	align-self: center;
-	text-align: center;
-	font: proximanova, sans-serif;
-	font-size: 65px;
-	letter-spacing: 2.7px;
-	line-height: 1.4em;
-	font: bold;
-	text-transform: uppercase;
-	text-shadow: 0 0 10px rgba(0, 0, 0, .3);
-	position: relative;
-	left: 50%;
-	top: 50%;
-	width: 100%;
-}
 .card__link {
 	width: 100%;
 	text-align: center;
@@ -135,9 +113,19 @@ iframe {
 	border-radius: 5px;
 	background-color: #dc3545;
 }
-
+.card {
+	color: #333333;
+}
+.card-title {
+	text-align: start;
+	font-size: 2rem;
+	letter-spacing: 0.063rem;
+	line-height: 2.6rem;
+	font-weight: bold;
+}
 .rows {
 	margin-top: 6.25rem;
+	color: #333333;
 }
 
 .navbar {
@@ -179,4 +167,32 @@ iframe {
 #imgs2 {
 	width: 640px;
 	height: 394px;
+}
+
+.footer {
+	background-color: #1b252f;
+	color: 333333;
+	height: 54vh;
+	margin-top: 5em;
+}
+
+@media screen and (min-width: 924px) {
+	.footer {
+		clip-path: polygon(0 100%, 100% 100%, 100% 38%, 52% 56%, 0% 38%);
+	}
+}
+
+.subscribe {
+	background-image: url(../img/footer.jpg);
+	margin: 0;
+	border-radius: 5%;
+	padding: 30px;
+	position: absolute;
+	bottom: 30%;
+	z-index: 10;
+	color: #ffffff;
+}
+
+#contain {
+	position: relative;
 }
