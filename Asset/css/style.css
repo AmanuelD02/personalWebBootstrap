@@ -104,7 +104,6 @@ h1 {
 }
 
 .card__link {
-	width: 100%;
 	text-align: center;
 	font-size: 1em;
 	line-height: 1em;
@@ -216,4 +215,8 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 1.6rem;
+}
+
+.list-group-item {
+	border: none;
 }
