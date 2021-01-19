@@ -2,6 +2,8 @@
 	margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+
 ::-webkit-scrollbar {
 	width: 12px;
 	height: 4px;
@@ -77,6 +79,7 @@ body {
 	line-height: 2.1em;
 	font-weight: bold;
 	color: #272121;
+	font-family: 'Fira Sans', sans-serif;
 }
 .third__col > p {
 	text-align: start;
@@ -188,7 +191,7 @@ h1 {
 footer {
 	background-color: #1b252f;
 	color: #ffe;
-	height: 77vh;
+
 	margin-top: 5em;
 	width: 100%;
 }
@@ -256,4 +259,14 @@ footer {
 	width: 300px;
 	background-color: #f8f9fa;
 	border: none;
+}
+
+.blog-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.blog-img {
+	height: 30rem;
 }
