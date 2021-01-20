@@ -148,9 +148,15 @@ h1 {
 }
 
 .navbar {
-	padding: .8rem;
+	/* padding: .8rem; */
 }
 
+#navlink {
+	color: #000000;
+}
+#navlink-about {
+	color: #000000;
+}
 #navlink:hover {
 	background-color: #111111;
 	color: #fff;
@@ -160,15 +166,19 @@ h1 {
 	color: #fff;
 }
 
+#navlink-about:hover #dropdown-menu {
+	display: block;
+}
+
 .nav-link {
-	font-size: .825em !important;
+	/* font-size: .825em !important;
 	letter-spacing: 2.5px;
 	text-align: left;
-	height: auto;
+	height: auto; */
 }
 
 .navbar-brand {
-	font-size: 18px;
+	/* font-size: 18px; */
 }
 .navbar-brand:hover {
 	font-style: italic;
@@ -264,6 +274,7 @@ footer {
 .blog-container {
 	display: flex;
 	align-items: center;
+	font-size: 30px;
 	justify-content: center;
 }
 
